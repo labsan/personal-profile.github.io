@@ -1,0 +1,53 @@
+body {
+    background-color: transparent;
+}
+
+.slider img {
+    filter: opacity(0.9);
+}
+
+.slider h3, slider h5, .client h3 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.slider h3 {
+    margin-top: 120px;
+}
+
+section {
+    padding: 30px 0 40px 0;
+}
+
+section h3 {
+    padding-bottom: 30px;
+}
+
+.parallax-container {
+    height: auto;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.7 !important;
+}
+
+/* Merapatkan bagian atas-bawah section client dengan section lainnya */
+.client {
+    padding: 0;
+}
+
+.client .container img {
+    max-width: 150px;
+    max-height: 100px;
+    padding: 10px 0;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+}
+
+.client .card-panel {
+    background: none;
+    box-shadow: none;
+}
+
+footer {
+    padding: 10px 0;
+}
